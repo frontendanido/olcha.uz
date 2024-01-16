@@ -1,0 +1,329 @@
+
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+.blue{
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #000;
+    font-size:20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 18px !important;
+}
+.blue:hover{
+    height: 45px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #e1002b;
+    font-size:20px;
+    border: 2px solid #e1002b;
+}
+
+.olcha:hover{
+    background-color: #e1002b;
+    color: #ffffff; 
+    border-radius: 10px;
+}
+.bg-darkred{
+    background-color: #da002b;
+    height: 55px;
+}
+
+.nav{
+    width: 100% !important;
+}
+.navbar li{
+    list-style-type: none;
+}
+.payment{
+    width: 155px;
+    height: 33px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.payment a{
+    color: #e1002b;
+    font-size: 15px;
+    font-weight: 400;
+}
+.payment:hover{
+    background-color: #da002b;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.payment a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.discount{
+    width: 130px;
+    height: 33px;
+    background-color: #da002b;
+    border: 3px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.discount a{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+.discount:hover{
+    background-color: white;
+    border: 4px solid #da002b;
+    transition: 0.5s;
+}
+.discount a:hover{
+    color: #e1002b;
+    text-decoration: none;
+}
+
+.game{
+    width: 150px;
+    height: 33px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+.game a{
+    color: #e1002b;
+    font-size: 15px;
+    font-weight: 400;
+}
+.game:hover{
+    background-color: #da002b;
+    border: 3px solid white;
+    transition: 0.5s;
+}
+.game a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.map a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.map a:hover {
+    color: #f4b3c0;
+    text-decoration: none;
+    transition: 0,5s;
+}
+.phone a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.phone a:hover{
+    color: #f4b3c0;
+    text-decoration: none;
+}
+.ml-10{
+    margin-left: 100px !important;
+}
+
+.sell{
+    width: 140px;
+    height: 35px;
+    background-color: #da002b;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.sell a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sell:hover{
+    background-color: white;
+    border: 4px solid #da002b;
+    transition: 0.5s;
+}
+.sell a:hover{
+    color: #e1002b;
+    text-decoration: none;
+}
+.icon-bar a i:hover{
+  color:  #da002b;
+ }
+
+
+.sur{
+    display: flex;
+}
+.icon-item a:hover{
+    color: #da002b!important;
+}
+.icon-item i:hover{
+    color: #da002b!important;
+}
+
+.icon-item a{
+    padding: 14px 12px !important;
+}
+.icon-item i{
+    padding: 5px 30px !important;
+}
+
+
+.carousel-item{
+    width: 885px;
+    height: 380px;
+    padding-left: 25px !important;
+}
+
+
+
+.cards{
+    width: 300px;
+    height: 380px;
+    border-radius: 20px;
+    border: 3px solid #da002b;
+   }
+
+   .card{
+    width: 25px;
+    height: 25px;
+    text-align: center;
+   }
+
+   .products{
+    display: flex;
+   }
+   .img{
+    padding-left: 20px !important;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+   }
+   .img p:hover{
+    color: #da002b !important;
+   }
+   .card-shop{
+    max-width: 1366px;
+   }
+   .red{
+     margin-left: 25px !important;
+     text-align: center;
+     font-size: 14px;
+     background: #da002b;
+     color: #f1f1f1;
+     width: 60px;
+     height: 25px;
+     border-radius: 6px;
+   }
+   
+   .text{
+    padding-left: 45px !important; 
+    text-decoration: none; 
+    color: black;
+    
+   }
+   .text:hover{
+    color: #da002b;
+    text-decoration: none;
+   }
+
+   .money{
+    padding-top: 35px !important;
+    padding-left: 45px !important;
+   }
+   .month{
+    margin-left: 45px !important;
+    padding-left: 10px !important;
+    font-size: 13px;
+    background: #ffd740;
+    width: 135px;
+    height: 25px;
+    border-radius: 6px;
+   }
+
+   .buttun{
+    margin-top: 35px !important;
+    margin-left: 25px !important;
+   }
+   .buttuns{
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+   }
+
+   .but{
+    color: #da002b;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    border: 3px solid #da002b;
+   }
+
+   .avto-tavar img{
+    border-radius: 20px;
+    
+   }
+
+   .img p{
+   text-align: center;
+   color: rgb(74, 70, 70);
+   font-size: 16px;
+   }
+
+   .muddatli img{
+    width: 1100px;
+    height: 100px; 
+    border-radius: 25px;
+    margin-left: 30px !important;
+   }
+
+   .watch{
+    width: 1150px;
+    height:  480px;
+    background-color: #da002b;
+    margin-top: 55px !important;
+    margin-left: 25px !important;
+    border-radius: 10px;
+   }
+
+   .cheg{
+     margin-top: 10px !important;
+     margin-right: 330px !important;
+     border-radius: 5px;
+     color: white;
+     background-color: #da002b;
+     border-color: #da002b;
+   }
+   
+   
+
+
+   
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
